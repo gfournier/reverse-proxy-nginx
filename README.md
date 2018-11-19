@@ -41,3 +41,15 @@ Use the following command to reload nginx configuration:
 ```
 nginx -s reload
 ```
+
+## Test
+
+Test routes `/app1` and `/app2`:
+
+```
+λ curl http://localhost/app1
+Hello World!
+
+λ curl http://localhost/app2
+Bonjour!
+```
